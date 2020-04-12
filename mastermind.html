@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+
+    <title> Masterblind </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="mastermind.css" rel="Stylesheet" type="text/css"/>
+
+</head>
+
+<body>
+
+<div id="defaultColors"> 
+
+	<div id="c1" class="colorList" onclick="userSelection(this.style.backgroundColor)"> </div>
+	<div id="c2" class="colorList" onclick="userSelection(this.style.backgroundColor)"> </div>
+	<div id="c3" class="colorList" onclick="userSelection(this.style.backgroundColor)"> </div>
+	<div id="c4" class="colorList" onclick="userSelection(this.style.backgroundColor)"> </div>
+	<div id="c5" class="colorList" onclick="userSelection(this.style.backgroundColor)"> </div>
+	<div id="c6" class="colorList" onclick="userSelection(this.style.backgroundColor)"> </div>
+	<div id="c7" class="colorList" onclick="userSelection(this.style.backgroundColor)"> </div>
+	<div id="c8" class="colorList" onclick="userSelection(this.style.backgroundColor)"> </div>
+	
+
+</div>
+
+<div id="firstGuess" class="firstGuess">
+
+	<div id="c11" class="firstGuessList"> </div>
+	<div id="c12" class="firstGuessList"> </div>
+	<div id="c13" class="firstGuessList"> </div>
+	<div id="c14" class="firstGuessList"> </div>
+
+</div>
+
+<div id="secondGuess" class="secondGuess">
+
+	<div id="c21" class="secondGuessList"> </div>
+	<div id="c22" class="secondGuessList"> </div>
+	<div id="c23" class="secondGuessList"> </div>
+	<div id="c24" class="secondGuessList"> </div>
+
+</div>
+
+<div id="thirdGuess" class="thirdGuess">
+
+	<div id="c31" class="thirdGuessList"> </div>
+	<div id="c32" class="thirdGuessList"> </div>
+	<div id="c33" class="thirdGuessList"> </div>
+	<div id="c34" class="thirdGuessList"> </div>
+
+</div>
+
+<div id="fourthGuess" class="fourthGuess">
+
+	<div id="c41" class="fourthGuessList"> </div>
+	<div id="c42" class="fourthGuessList"> </div>
+	<div id="c43" class="fourthGuessList"> </div>
+	<div id="c44" class="fourthGuessList"> </div>
+
+</div>
+
+<div id="fifthGuess" class="fifthGuess">
+
+	<div id="c51" class="fifthGuessList"> </div>
+	<div id="c52" class="fifthGuessList"> </div>
+	<div id="c53" class="fifthGuessList"> </div>
+	<div id="c54" class="fifthGuessList"> </div>
+
+</div>
+
+<div id="sixthGuess" class="sixthGuess">
+
+	<div id="c61" class="sixthGuessList"> </div>
+	<div id="c62" class="sixthGuessList"> </div>
+	<div id="c63" class="sixthGuessList"> </div>
+	<div id="c64" class="sixthGuessList"> </div>
+
+</div>
+
+<div id="seventhGuess" class="seventhGuess">
+
+	<div id="c71" class="seventhGuessList"> </div>
+	<div id="c72" class="seventhGuessList"> </div>
+	<div id="c73" class="seventhGuessList"> </div>
+	<div id="c74" class="seventhGuessList"> </div>
+
+</div>
+
+<div id="eigthGuess" class="eigthGuess">
+
+	<div id="c81" class="eigthGuessList"> </div>
+	<div id="c82" class="eigthGuessList"> </div>
+	<div id="c83" class="eigthGuessList"> </div>
+	<div id="c84" class="eigthGuessList"> </div>
+
+</div>
+
+<div id="ninthGuess" class="ninthGuess">
+
+	<div id="c91" class="ninthGuessList"> </div>
+	<div id="c92" class="ninthGuessList"> </div>
+	<div id="c93" class="ninthGuessList"> </div>
+	<div id="c94" class="ninthGuessList"> </div>
+
+</div>
+
+<div id="tenthGuess" class="tenthGuess">
+
+	<div id="c101" class="tenthGuessList"> </div>
+	<div id="c102" class="tenthGuessList"> </div>
+	<div id="c103" class="tenthGuessList"> </div>
+	<div id="c104" class="tenthGuessList"> </div>
+
+</div>
+
+<div id="randomPicks" class="randomPicks">
+
+	<div id="r1" class="randomPicksList"> </div>
+	<div id="r2" class="randomPicksList"> </div>
+	<div id="r3" class="randomPicksList"> </div>
+	<div id="r4" class="randomPicksList"> </div>
+
+</div> 
+
+<div id="visualFeedback" class="visualFeedback">
+
+	<div id="f1" class="visualFeedbackList"> </div>
+	<div id="f2" class="visualFeedbackList"> </div>
+	<div id="f3" class="visualFeedbackList"> </div>
+	<div id="f4" class="visualFeedbackList"> </div>
+
+</div> 
+
+<div id="difficulty" class="difficulty">
+ 	<div>
+		<input type="checkbox" id="holes" name="holes" value="holes">
+		<label for="holes"> Ajouter la possibilité de trous </label> <br>
+	</div>
+	<div>
+		<input type="checkbox" id="repeat" name="repeat" value="repeat">
+		<label for="repeat"> Ajouter la possibilité d'avoir des répétitions </label> <br>
+	</div>
+
+</div>
+
+<div id="correction" class="correction"> 
+	<button type="button" onclick="effacer()"> Effacer </button>
+
+
+<script src="mastermind.js"></script>
+
+</body>
+
+</html>
